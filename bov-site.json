@@ -155,9 +155,7 @@
         "Apartment Units Sold"
       ]
     ],
-    "narrative": [
-      "A seven-unit rent-controlled building in Sunset Park is bought by a specific kind of owner: one who already holds small Westside buildings, understands the Santa Monica registry, and prices the two long-term tenancies as future upside rather than a problem. That buyer is on a list, not on a portal, and the list is what {closed} closings and {volume} in volume across {geo} have built."
-    ],
+    "narrative": [],
     "achievements": [],
     "press": []
   },
@@ -201,8 +199,9 @@
       "buyout_model": null,
       "address": "829 Ocean Park Blvd, Santa Monica, CA 90405",
       "city": "Santa Monica, CA 90405",
-      "submarket": "Sunset Park",
+      "submarket": "Santa Monica",
       "track_record_submarkets": null,
+      "track_record_representative": "recent",
       "apn": "4284-008-001",
       "units": 7,
       "building_sf": 5682,
@@ -210,7 +209,7 @@
       "lot_acres": 0.152,
       "year_built": 1953,
       "renovated_year": null,
-      "parking": "On-site surface parking at the rear of the building off 9th St, described in leasing history as non-assigned with one space offered per unit. The space count and any garage or carport structures should be verified during inspection.",
+      "parking": "On-site parking at the rear of the building off 9th St",
       "hero": "images/costar-front-elevation-ocean-park.jpg",
       "price": 2450000,
       "price_per_unit": 350000.0,
@@ -224,8 +223,8 @@
           "price_per_sf": 431.18620204153467,
           "grm_current": 11.934553054397986,
           "grm_market": 10.25963149078727,
-          "cap_current": 5.237836734693878,
-          "cap_market": 6.511632653061225
+          "cap_current": 5.156816326530612,
+          "cap_market": 6.43061224489796
         },
         {
           "label": "Range top",
@@ -234,8 +233,8 @@
           "price_per_sf": 448.7856388595565,
           "grm_current": 12.42167766886321,
           "grm_market": 10.678391959798995,
-          "cap_current": 4.985225215686275,
-          "cap_market": 6.209068352941176
+          "cap_current": 4.907382078431373,
+          "cap_market": 6.131225215686274
         },
         {
           "label": "Midpoint",
@@ -244,8 +243,8 @@
           "price_per_sf": 431.18620204153467,
           "grm_current": 11.934553054397986,
           "grm_market": 10.25963149078727,
-          "cap_current": 5.237836734693878,
-          "cap_market": 6.511632653061225
+          "cap_current": 5.156816326530612,
+          "cap_market": 6.43061224489796
         },
         {
           "label": "Range bottom",
@@ -254,8 +253,8 @@
           "price_per_sf": 413.5867652235128,
           "grm_current": 11.44742843993276,
           "grm_market": 9.840871021775545,
-          "cap_current": 5.511947106382978,
-          "cap_market": 6.839947106382979
+          "cap_current": 5.4274790212765955,
+          "cap_market": 6.755479021276596
         }
       ],
       "scheduled_rent": [
@@ -272,21 +271,21 @@
       ],
       "grm_current": 11.934553054397986,
       "grm_market": 10.25963149078727,
-      "cap_current": 5.237836734693878,
-      "cap_market": 6.511632653061225,
+      "cap_current": 5.156816326530612,
+      "cap_market": 6.43061224489796,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 128327,
-      "noi_market": 159535,
+      "noi_current": 126342,
+      "noi_market": 157550,
       "tax_rate": 1.203757,
       "tax_anchor": {
         "ad_valorem": 29492,
         "flat_assessments": 1894,
         "expense_line": "Real Estate Taxes"
       },
-      "expense_total": 71998,
-      "expense_per_unit": 10285.42857142857,
-      "expense_per_sf": 12.671242520239351,
+      "expense_total": 73983,
+      "expense_per_unit": 10569.0,
+      "expense_per_sf": 13.020591341077086,
       "unit_mix": [
         {
           "unit": "Unit 1",
@@ -398,40 +397,40 @@
           232833
         ],
         "expenses": [
-          71998,
-          73298
+          73983,
+          75283
         ],
         "expense_ratio": [
-          35.94065214826989,
-          31.480932685658818
+          36.9315434857281,
+          32.333475065819705
         ],
         "noi": [
-          128327,
-          159535
+          126342,
+          157550
         ],
         "loan_payments": [
           0.0,
           0.0
         ],
         "pretax_cf": [
-          128327.0,
-          159535.0
+          126342.0,
+          157550.0
         ],
         "pretax_cf_pct": [
-          5.237836734693878,
-          6.511632653061225
+          5.156816326530612,
+          6.43061224489796
         ],
         "principal_reduction": [
           0.0,
           0.0
         ],
         "total_return": [
-          128327.0,
-          159535.0
+          126342.0,
+          157550.0
         ],
         "total_return_pct": [
-          5.237836734693878,
-          6.511632653061225
+          5.156816326530612,
+          6.43061224489796
         ]
       },
       "expense_lines": [
@@ -443,8 +442,8 @@
         ],
         [
           "Insurance",
-          7082,
-          7082,
+          6667,
+          6667,
           "5"
         ],
         [
@@ -479,8 +478,8 @@
         ],
         [
           "Landscaping",
-          2400,
-          2400,
+          4800,
+          4800,
           "11"
         ],
         [
@@ -509,7 +508,7 @@
         ],
         "5": [
           "Insurance",
-          "LAAA allowance of $200 per unit plus $1.00 per gross square foot, $7,082. Ownership's current premium is $6,667; a buyer should obtain quotes."
+          "Ownership's current premium of $6,667 per year, carried as paid. The LAAA allowance of $200 per unit plus $1.00 per gross square foot would be $7,082; a buyer should obtain quotes."
         ],
         "6": [
           "Utilities - Electric",
@@ -533,7 +532,7 @@
         ],
         "11": [
           "Landscaping",
-          "Gardening at $200 per month on ownership's schedule, $2,400 per year. The schedule prints the line twice; it is counted once."
+          "Gardening at $400 per month on ownership's schedule (two $200 lines), $4,800 per year."
         ],
         "12": [
           "Pest Control",
@@ -570,46 +569,39 @@
       "highlights": [
         "Seven units on a 6,603 SF corner lot at Ocean Park Blvd and 9th St, built 1953, 5,682 SF per the county",
         "100% occupied at $17,107 per month scheduled, $205,286 per year, with no vacant units on the February 2026 rent roll",
-        "5.24% cap rate and 11.93 GRM on current income at the recommended price, 6.51% at underwritten market rents",
-        "16% scheduled rent upside on turnover, concentrated in two long-term one-bedroom tenancies at $1,712 and $1,757",
-        "Family ownership since at least 1975 with a 1975 Proposition 13 base year and no recorded market sale on title",
+        "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents",
         "Walk Score 87 and Bike Score 88, one mile to Main Street and the beach, with on-site laundry and parking"
       ],
       "overview": [
-        "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A. Title has not changed hands in a market sale since the 1975 base year; the recorded transfers since then are a spousal transfer, a trust transfer and a file correction.",
-        "The February 27, 2026 rent roll shows all seven units occupied at $1,711.73 to $3,000 per month, $17,107.19 in total. Leasing history supports a mix of one and two bedrooms; the analysis carries four two bedrooms and three one bedrooms pending ownership's confirmation. The building has an on-site laundry room that produced about $100 per month, storage, gas ranges, hardwood floors and non-assigned parking at the rear.",
-        "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.24% return on current income and 6.51% at underwritten market rents. The closed Sunset Park sales of the past fourteen months ran $310,000 to $458,000 per unit and $367 to $528 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+        "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A.",
+        "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
       ],
       "location_title": "Sunset Park, Santa Monica, One Mile From Main Street and the Sand",
       "location_narrative": [
         "The property sits at the corner of Ocean Park Blvd and 9th St, between Lincoln Blvd and the Ocean Park neighborhood, in the 90405 ZIP code. Ocean Park Blvd runs west to Main Street and the beach in about a mile and east to Santa Monica College and the Expo Line's 17th Street station. Lincoln Blvd, one block west, carries the retail corridor from Rose Avenue to downtown Santa Monica, and Whole Foods, Trader Joe's and Santa Monica Airport Park are all within ten minutes.",
         "The 90405 ZIP code reports 27,298 residents with a median age of 43.1 and a median household income of $121,241, and 69% of its households rent. Median gross rent is $2,417. The parcel scores 87 on Walk Score, 57 on Transit Score and 88 on Bike Score, and sits in FEMA Zone X, an area of minimal flood hazard. HUD's 2026 small-area fair market rents for the ZIP are $2,850 for a one bedroom and $3,550 for a two bedroom.",
-        "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: nine five to twelve unit sales closed in the ZIP between June 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
+        "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: eight five to twelve unit sales closed in the ZIP between December 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
       ],
-      "physical_narrative": [
-        "The building is a two-story wood-frame and stucco structure of 5,682 SF on a 6,603 SF corner lot, built 1953. The street elevation on Ocean Park Blvd carries a decorative wrought-iron screen, a flagstone planter and a lawn; the 9th St side holds the exterior stair and the gated parking area at the rear. The county records seven units and no per-unit areas.",
-        "Leasing history describes the units as one and two bedrooms with gas ranges, hardwood floors and, in the units turned most recently, new paint, new kitchens and remodeled baths; one two bedroom was advertised at 850 SF with central air. The building has a common laundry room, storage space and non-assigned on-site parking with one space offered per unit. Unit square footages are not published by the county or ownership and are omitted from this analysis.",
-        "A 1953 building under one family's ownership for fifty years will be underwritten by buyers on what has not been done as much as what has. Ownership's schedule shows a well-run building with modest bills, but it is one month of expenses rather than a year, and the seismic retrofit status, roof, plumbing and electrical service should be documented before launch. This analysis carries repairs at $800 per unit and reserves at $250 per unit rather than the owner's actual cost."
-      ],
+      "physical_narrative": [],
       "market_narrative": [
-        "Nine closed sales of five to twelve unit buildings in 90405 since June 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026.",
+        "Eight closed sales of five to twelve unit buildings in 90405 since December 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026.",
         "The active listings are the other half of the picture. 2648 23rd St, an eight-unit 1949 building with the same one and two bedroom mix and seven renovated units, asks $3.2M at a published 5.50% cap. 1937 17th St, a six-unit 1948 building with two vacancies, asks $2.25M at 5.00%. The subject at $2.45M sits between them on price, below both on price per square foot, and offers a fully occupied roll that neither does."
       ],
       "positioning_narrative": [
         "The right buyer values what is scarce here: a corner lot a mile from the beach, seven paying tenants, a clean title history and two units whose rents reset on turnover. That buyer should be qualified early on whether they will hold for the turnover or want it priced in, because the answer decides whether an offer lands at the top or the bottom of the range."
       ],
       "rent_narrative": [
-        "Rent evidence is read plan by plan. Seven one-bedroom listings in Sunset Park run $2,190 to $2,900 and average $2,591, with the two on Ocean Park Blvd at $2,875 and $2,900 and an unrenovated 700 SF unit two blocks away at $2,190. Eight two-bedroom listings run $2,795 to $3,800 and average $3,154; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
+        "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
         "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
       ],
       "valuation_narrative": [
-        "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $71,998, including taxes reassessed at the list price, produce net operating income of $128,327, a 5.24% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $159,535 and the cap rate 6.51%. The price is $350,000 per unit and $431 per SF.",
+        "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF.",
         "Against the evidence, the price is disciplined. It sits inside the closed per-unit range, inside the closed per-square-foot range, at a yield between the 5.00% Pacific St sale and the 5.87% Maple St sale, and at a multiplier between Maple and 20th Street. The reasons it is not higher are the same reasons it is defensible: two units 30% under market that recover only on turnover, a one-month expense record, and a 1953 building whose retrofit status is not yet documented. A buyer who underwrites the turnover will pay the top of the range; a buyer who prices it out will pay the bottom."
       ],
       "strategy": [
         {
           "title": "Price Off the Sale Behind the Building",
-          "copy": "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.24% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it."
+          "copy": "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.16% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it."
         },
         {
           "title": "Sell the Turnover Story Honestly",
@@ -627,7 +619,7 @@
         },
         {
           "title": "1031 Exchange Buyer",
-          "copy": "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.24% yield is exactly the identification that pool makes."
+          "copy": "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.16% yield is exactly the identification that pool makes."
         },
         {
           "title": "Long-Hold Family Investor",
@@ -635,7 +627,7 @@
         }
       ],
       "disclosures": [
-        "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506), gardening ($2,400) and pest control ($1,261) are ownership's March 2026 bills annualized. Insurance is the LAAA allowance of $7,082 against a current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
+        "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
         "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
       ],
       "gallery": [
@@ -716,16 +708,6 @@
           "map_ref": 6
         },
         {
-          "address": "1112 Ocean Park Blvd, Santa Monica",
-          "unit_type": "1 Bed / 1 Bath",
-          "rent": 2900,
-          "square_feet": 725,
-          "square_feet_basis": "labelled_estimate",
-          "distance": 0.132,
-          "image": null,
-          "map_ref": 7
-        },
-        {
           "address": "2015 17th St, Santa Monica",
           "unit_type": "2 Bed / 1 Bath",
           "rent": 2795,
@@ -733,7 +715,7 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.77,
           "image": null,
-          "map_ref": 8
+          "map_ref": 7
         },
         {
           "address": "2240 28th St, Santa Monica",
@@ -743,7 +725,7 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.423,
           "image": null,
-          "map_ref": 9
+          "map_ref": 8
         },
         {
           "address": "1846 10th St, Santa Monica",
@@ -753,7 +735,7 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.59,
           "image": null,
-          "map_ref": 10
+          "map_ref": 9
         },
         {
           "address": "2426 20th St, Santa Monica",
@@ -763,7 +745,7 @@
           "square_feet_basis": "omitted",
           "distance": 0.762,
           "image": null,
-          "map_ref": 11
+          "map_ref": 10
         },
         {
           "address": "1948 20th St, Santa Monica",
@@ -773,7 +755,7 @@
           "square_feet_basis": "omitted",
           "distance": 0.961,
           "image": null,
-          "map_ref": 12
+          "map_ref": 11
         },
         {
           "address": "1315 Ocean Park Blvd, Santa Monica",
@@ -783,7 +765,7 @@
           "square_feet_basis": "omitted",
           "distance": 0.269,
           "image": null,
-          "map_ref": 13
+          "map_ref": 12
         },
         {
           "address": "817 Hill St, Santa Monica",
@@ -793,41 +775,53 @@
           "square_feet_basis": "omitted",
           "distance": 0.142,
           "image": null,
-          "map_ref": 14
-        },
-        {
-          "address": "1112 Ocean Park Blvd, Santa Monica",
-          "unit_type": "2 Bed / 1 Bath",
-          "rent": 3800,
-          "square_feet": 920,
-          "square_feet_basis": "labelled_estimate",
-          "distance": 0.132,
-          "image": null,
-          "map_ref": 7
+          "map_ref": 13
         }
       ],
       "sale_comps": [
         {
-          "address": "824 Maple St, Santa Monica",
+          "address": "2411 20th St, Santa Monica",
           "status": "Closed",
-          "price": 2525000,
-          "units": 6,
-          "year_built": 1973,
-          "building_sf": 6882,
-          "lot_sf": 6591,
-          "date": "2026-05-07",
+          "price": 2170000,
+          "units": 7,
+          "year_built": 1935,
+          "building_sf": 5937,
+          "lot_sf": 13544,
+          "date": "2026-08-24",
           "days_on_market": null,
-          "price_per_unit": 420833.33,
-          "price_per_sf": 366.9,
-          "grm": 11.58,
-          "cap_rate": 5.87,
+          "price_per_unit": 310000.0,
+          "price_per_sf": 365.5,
+          "grm": 12.89,
+          "cap_rate": null,
           "image": null,
           "restatement": null,
           "document": null,
-          "summary": "Directly behind the subject on the same block, closed four months ago with reported income; the anchor comparable.",
-          "relevance": "Six units in 6,882 SF, built 1973, two stories, on the same block as the subject: two 1 bed / 1 bath, three 2 bed / 2 bath and one 3 bed / 2 bath of roughly 1,000 SF average.",
-          "considerations": "Closed at a 5.87% cap and 11.58 gross rent multiplier on $148,268 of reported net operating income; listed by Roque & Mark, sold to a private buyer represented by CBRE.",
+          "summary": "The only seven-unit sale in the set and the most recent closing; older single-story product on a larger lot.",
+          "relevance": "Seven units in 5,937 SF across three single-story buildings, built 1935, on a 13,544 SF lot with garages and surface parking.",
+          "considerations": "Closed at a 12.89 gross rent multiplier; no cap rate was reported. Listed by RE/MAX Commercial.",
           "map_ref": 1
+        },
+        {
+          "address": "2318 16th St, Santa Monica",
+          "status": "Closed",
+          "price": 4870000,
+          "units": 12,
+          "year_built": 1977,
+          "building_sf": 20805,
+          "lot_sf": 19034,
+          "date": "2026-08-05",
+          "days_on_market": null,
+          "price_per_unit": 405833.33,
+          "price_per_sf": 234.08,
+          "grm": 12.18,
+          "cap_rate": null,
+          "image": null,
+          "restatement": null,
+          "document": null,
+          "summary": "Larger 1970s building included for its recent multiplier only; scale and vintage limit its weight.",
+          "relevance": "Twelve units in 20,805 SF, built 1977, two stories with 28 covered spaces; twice the subject's unit count and more than three times its area.",
+          "considerations": "Closed at a 12.18 gross rent multiplier with one vacancy; listed by RE/MAX Commercial.",
+          "map_ref": 2
         },
         {
           "address": "2332 20th St, Santa Monica",
@@ -849,7 +843,7 @@
           "summary": "Closest vintage match in the set with reported income and a two-bedroom-heavy mix like the subject's.",
           "relevance": "Six units in 5,420 SF across two buildings, built 1959: two 1 bed / 1 bath and four 2 bed / 1 bath of about 1,288 SF.",
           "considerations": "Closed at a 6.07% cap and 11.76 gross rent multiplier; the buyer was completing a 1031 exchange. Listed by Lyon Stahl.",
-          "map_ref": 2
+          "map_ref": 3
         },
         {
           "address": "711 Grant St, Santa Monica",
@@ -871,7 +865,7 @@
           "summary": "Recent Ocean Park closing with a published multiplier, but sold with vacancies and a pro forma cap that cannot be treated as in-place yield.",
           "relevance": "Six units in 6,128 SF across two buildings, built 1956, five surface spaces, four tenths of a mile west of the subject.",
           "considerations": "Marketed at $2,495,000 as a high-vacancy property and closed at $2,330,000 (93% of ask). CoStar records a 6.08% pro forma cap and a 12.07 gross rent multiplier; the pro forma cap is not carried.",
-          "map_ref": 3
+          "map_ref": 4
         },
         {
           "address": "1044 Pacific St, Santa Monica",
@@ -893,28 +887,6 @@
           "summary": "Three blocks north with a reported in-place cap; the highest price per square foot of the income-supported sales.",
           "relevance": "Five units in 4,646 SF, built 1963, seven covered spaces: one 1 bed / 1 bath of 780 SF and four 2 bed / 1 bath of 950 SF.",
           "considerations": "Closed at a 5.00% actual cap with 20% vacancy at sale; listed and sold by KW Advisors.",
-          "map_ref": 4
-        },
-        {
-          "address": "2411 20th St, Santa Monica",
-          "status": "Closed",
-          "price": 2170000,
-          "units": 7,
-          "year_built": 1935,
-          "building_sf": 5937,
-          "lot_sf": 13544,
-          "date": "2026-08-24",
-          "days_on_market": null,
-          "price_per_unit": 310000.0,
-          "price_per_sf": 365.5,
-          "grm": 12.89,
-          "cap_rate": null,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "summary": "The only seven-unit sale in the set and the most recent closing; older single-story product on a larger lot.",
-          "relevance": "Seven units in 5,937 SF across three single-story buildings, built 1935, on a 13,544 SF lot with garages and surface parking.",
-          "considerations": "Closed at a 12.89 gross rent multiplier; no cap rate was reported. Listed by RE/MAX Commercial.",
           "map_ref": 5
         },
         {
@@ -940,6 +912,28 @@
           "map_ref": 6
         },
         {
+          "address": "824 Maple St, Santa Monica",
+          "status": "Closed",
+          "price": 2525000,
+          "units": 6,
+          "year_built": 1973,
+          "building_sf": 6882,
+          "lot_sf": 6591,
+          "date": "2026-05-07",
+          "days_on_market": null,
+          "price_per_unit": 420833.33,
+          "price_per_sf": 366.9,
+          "grm": 11.58,
+          "cap_rate": 5.87,
+          "image": null,
+          "restatement": null,
+          "document": null,
+          "summary": "Directly behind the subject on the same block, closed four months ago with reported income; the anchor comparable.",
+          "relevance": "Six units in 6,882 SF, built 1973, two stories, on the same block as the subject: two 1 bed / 1 bath, three 2 bed / 2 bath and one 3 bed / 2 bath of roughly 1,000 SF average.",
+          "considerations": "Closed at a 5.87% cap and 11.58 gross rent multiplier on $148,268 of reported net operating income; listed by Roque & Mark, sold to a private buyer represented by CBRE.",
+          "map_ref": 7
+        },
+        {
           "address": "2336 34th St, Santa Monica",
           "status": "Closed",
           "price": 2310000,
@@ -959,51 +953,7 @@
           "summary": "All-two-bedroom 1966 building in eastern Sunset Park; per-unit and per-square-foot evidence only.",
           "relevance": "Six 2 bed / 2 bath units of about 1,116 SF in 5,924 SF, built 1966, two stories.",
           "considerations": "Sold to a local private buyer through Compass Commercial; no income was published.",
-          "map_ref": 7
-        },
-        {
-          "address": "2820 3rd St, Santa Monica",
-          "status": "Closed",
-          "price": 2446000,
-          "units": 6,
-          "year_built": 1962,
-          "building_sf": 4636,
-          "lot_sf": null,
-          "date": "2025-06-27",
-          "days_on_market": null,
-          "price_per_unit": 407666.67,
-          "price_per_sf": 527.61,
-          "grm": null,
-          "cap_rate": null,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "summary": "Older sale closer to the ocean; carried for the per-square-foot ceiling on 1960s stock west of Lincoln.",
-          "relevance": "Six units in 4,636 SF, built 1962, in the Ocean Park neighbourhood five blocks from the beach.",
-          "considerations": "Deed-verified price from the LAAA Comps database; no income was published and the sale is now fourteen months old.",
           "map_ref": 8
-        },
-        {
-          "address": "2318 16th St, Santa Monica",
-          "status": "Closed",
-          "price": 4870000,
-          "units": 12,
-          "year_built": 1977,
-          "building_sf": 20805,
-          "lot_sf": 19034,
-          "date": "2026-08-05",
-          "days_on_market": null,
-          "price_per_unit": 405833.33,
-          "price_per_sf": 234.08,
-          "grm": 12.18,
-          "cap_rate": null,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "summary": "Larger 1970s building included for its recent multiplier only; scale and vintage limit its weight.",
-          "relevance": "Twelve units in 20,805 SF, built 1977, two stories with 28 covered spaces; twice the subject's unit count and more than three times its area.",
-          "considerations": "Closed at a 12.18 gross rent multiplier with one vacancy; listed by RE/MAX Commercial.",
-          "map_ref": 9
         }
       ],
       "active_comps": [
@@ -1088,55 +1038,53 @@
         },
         "asset_class_label": "Apartments",
         "local": {
-          "count": 8,
-          "volume": 29889500,
-          "units": 65
+          "count": 19,
+          "volume": 72739500,
+          "units": 144
         },
         "local_basis": {
-          "type": "radius",
-          "label": "within 1 miles",
-          "radius_mi": 1
+          "type": "submarket",
+          "label": "Santa Monica"
         },
         "representative": [
           {
-            "address": "707 Strand St",
-            "submarket": "Santa Monica",
-            "units": 5,
-            "price": 2145000,
-            "price_per_unit": 429000,
-            "year": "2021",
-            "distance": 0.32
-          },
-          {
-            "address": "1753 9th St",
-            "submarket": "Santa Monica",
-            "units": 7,
-            "price": 5100000,
-            "price_per_unit": 728571,
-            "year": "2021",
-            "distance": 0.7
-          },
-          {
-            "address": "2224 Oak St",
+            "address": "3205 Ocean Park Blvd",
             "submarket": "Santa Monica",
             "units": 6,
-            "price": 2700000,
-            "price_per_unit": 450000,
-            "year": "2021",
-            "distance": 0.91
+            "price": 7000000,
+            "price_per_unit": 1166667,
+            "year": "2025",
+            "distance": 1.65
+          },
+          {
+            "address": "1540 7th St",
+            "submarket": "Santa Monica",
+            "units": 8,
+            "price": 6050000,
+            "price_per_unit": 756250,
+            "year": "2022",
+            "distance": 1.04
+          },
+          {
+            "address": "1528 10th St",
+            "submarket": "Santa Monica",
+            "units": 8,
+            "price": 3350000,
+            "price_per_unit": 418750,
+            "year": "2022",
+            "distance": 1.05
           }
         ],
         "closings_map": {
           "source": "https://www.laaa.com/track-record",
-          "pulled": "2026-09-02T20:12:27+00:00",
+          "pulled": "2026-09-02T21:57:46+00:00",
           "basis": {
-            "type": "radius",
-            "label": "within 1 miles",
-            "radius_mi": 1
+            "type": "submarket",
+            "label": "Santa Monica"
           },
-          "apartment_sales": 8,
+          "apartment_sales": 19,
           "other_closings": 2,
-          "apartment_markers": 7,
+          "apartment_markers": 17,
           "other_markers": 2,
           "render": "images/maps-829-ocean-park-closings.png"
         }
@@ -1173,11 +1121,6 @@
     "document": {
       "deal_id": "829-ocean-park",
       "blocks": {
-        "track_record": {
-          "narrative": [
-            "A seven-unit rent-controlled building in Sunset Park is bought by a specific kind of owner: one who already holds small Westside buildings, understands the Santa Monica registry, and prices the two long-term tenancies as future upside rather than a problem. That buyer is on a list, not on a portal, and the list is what {closed} closings and {volume} in volume across {geo} have built."
-          ]
-        },
         "marketing": {
           "channel_titles": [
             "Direct Owner and Investor Outreach",
@@ -1197,7 +1140,7 @@
             "Have the Registry and the Bills Ready Before Launch"
           ],
           "strategy_copy": [
-            "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.24% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it.",
+            "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.16% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it.",
             "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,500. That is roughly $1,500 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy.",
             "The documents a Santa Monica buyer asks for on the first call are the Rent Control Board registration for each unit, twelve months of bills, and the seismic retrofit status. Ownership has provided a rent roll and one month of expenses. Assembling the registry printout, a trailing statement and the City's retrofit letter before launch removes the three questions that stall escrows on buildings of this vintage."
           ],
@@ -1209,15 +1152,12 @@
           "highlights": [
             "Seven units on a 6,603 SF corner lot at Ocean Park Blvd and 9th St, built 1953, 5,682 SF per the county",
             "100% occupied at $17,107 per month scheduled, $205,286 per year, with no vacant units on the February 2026 rent roll",
-            "5.24% cap rate and 11.93 GRM on current income at the recommended price, 6.51% at underwritten market rents",
-            "16% scheduled rent upside on turnover, concentrated in two long-term one-bedroom tenancies at $1,712 and $1,757",
-            "Family ownership since at least 1975 with a 1975 Proposition 13 base year and no recorded market sale on title",
+            "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents",
             "Walk Score 87 and Bike Score 88, one mile to Main Street and the beach, with on-site laundry and parking"
           ],
           "overview": [
-            "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A. Title has not changed hands in a market sale since the 1975 base year; the recorded transfers since then are a spousal transfer, a trust transfer and a file correction.",
-            "The February 27, 2026 rent roll shows all seven units occupied at $1,711.73 to $3,000 per month, $17,107.19 in total. Leasing history supports a mix of one and two bedrooms; the analysis carries four two bedrooms and three one bedrooms pending ownership's confirmation. The building has an on-site laundry room that produced about $100 per month, storage, gas ranges, hardwood floors and non-assigned parking at the rear.",
-            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.24% return on current income and 6.51% at underwritten market rents. The closed Sunset Park sales of the past fourteen months ran $310,000 to $458,000 per unit and $367 to $528 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+            "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A.",
+            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
           ]
         },
         "location": {
@@ -1227,19 +1167,12 @@
           "narrative": [
             "The property sits at the corner of Ocean Park Blvd and 9th St, between Lincoln Blvd and the Ocean Park neighborhood, in the 90405 ZIP code. Ocean Park Blvd runs west to Main Street and the beach in about a mile and east to Santa Monica College and the Expo Line's 17th Street station. Lincoln Blvd, one block west, carries the retail corridor from Rose Avenue to downtown Santa Monica, and Whole Foods, Trader Joe's and Santa Monica Airport Park are all within ten minutes.",
             "The 90405 ZIP code reports 27,298 residents with a median age of 43.1 and a median household income of $121,241, and 69% of its households rent. Median gross rent is $2,417. The parcel scores 87 on Walk Score, 57 on Transit Score and 88 on Bike Score, and sits in FEMA Zone X, an area of minimal flood hazard. HUD's 2026 small-area fair market rents for the ZIP are $2,850 for a one bedroom and $3,550 for a two bedroom.",
-            "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: nine five to twelve unit sales closed in the ZIP between June 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
-          ]
-        },
-        "property_details": {
-          "physical_narrative": [
-            "The building is a two-story wood-frame and stucco structure of 5,682 SF on a 6,603 SF corner lot, built 1953. The street elevation on Ocean Park Blvd carries a decorative wrought-iron screen, a flagstone planter and a lawn; the 9th St side holds the exterior stair and the gated parking area at the rear. The county records seven units and no per-unit areas.",
-            "Leasing history describes the units as one and two bedrooms with gas ranges, hardwood floors and, in the units turned most recently, new paint, new kitchens and remodeled baths; one two bedroom was advertised at 850 SF with central air. The building has a common laundry room, storage space and non-assigned on-site parking with one space offered per unit. Unit square footages are not published by the county or ownership and are omitted from this analysis.",
-            "A 1953 building under one family's ownership for fifty years will be underwritten by buyers on what has not been done as much as what has. Ownership's schedule shows a well-run building with modest bills, but it is one month of expenses rather than a year, and the seismic retrofit status, roof, plumbing and electrical service should be documented before launch. This analysis carries repairs at $800 per unit and reserves at $250 per unit rather than the owner's actual cost."
+            "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: eight five to twelve unit sales closed in the ZIP between December 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
           ]
         },
         "buyer_profile": {
           "market_narrative": [
-            "Nine closed sales of five to twelve unit buildings in 90405 since June 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026.",
+            "Eight closed sales of five to twelve unit buildings in 90405 since December 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026.",
             "The active listings are the other half of the picture. 2648 23rd St, an eight-unit 1949 building with the same one and two bedroom mix and seven renovated units, asks $3.2M at a published 5.50% cap. 1937 17th St, a six-unit 1948 building with two vacancies, asks $2.25M at 5.00%. The subject at $2.45M sits between them on price, below both on price per square foot, and offers a fully occupied roll that neither does."
           ],
           "positioning_narrative": [
@@ -1252,37 +1185,28 @@
           ],
           "profile_copy": [
             "Owners who already hold five to fifteen unit buildings in Santa Monica, Venice and Mar Vista, including the buyers on the Maple, 20th Street and Grant Street sales this year. They know the registry, the General Adjustment and the tenant base, and they buy on yield against a known turnover path.",
-            "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.24% yield is exactly the identification that pool makes.",
+            "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.16% yield is exactly the identification that pool makes.",
             "Families and individuals who buy Santa Monica apartments to hold for decades, the same profile as the current ownership. They pay for location and tenant stability rather than the first-year yield, and they are the buyers most likely to reach the top of the range."
           ]
         },
         "rent_comps": {
           "narrative": [
-            "Rent evidence is read plan by plan. Seven one-bedroom listings in Sunset Park run $2,190 to $2,900 and average $2,591, with the two on Ocean Park Blvd at $2,875 and $2,900 and an unrenovated 700 SF unit two blocks away at $2,190. Eight two-bedroom listings run $2,795 to $3,800 and average $3,154; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
+            "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
             "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
           ]
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $71,998, including taxes reassessed at the list price, produce net operating income of $128,327, a 5.24% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $159,535 and the cap rate 6.51%. The price is $350,000 per unit and $431 per SF.",
+            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF.",
             "Against the evidence, the price is disciplined. It sits inside the closed per-unit range, inside the closed per-square-foot range, at a yield between the 5.00% Pacific St sale and the 5.87% Maple St sale, and at a multiplier between Maple and 20th Street. The reasons it is not higher are the same reasons it is defensible: two units 30% under market that recover only on turnover, a one-month expense record, and a 1953 building whose retrofit status is not yet documented. A buyer who underwrites the turnover will pay the top of the range; a buyer who prices it out will pay the bottom."
           ],
           "disclosures": [
-            "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506), gardening ($2,400) and pest control ($1,261) are ownership's March 2026 bills annualized. Insurance is the LAAA allowance of $7,082 against a current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
+            "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
             "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
           ]
         }
       },
       "claims": [
-        {
-          "id": "track-1",
-          "claim_type": "broker_opinion",
-          "support_refs": [
-            "sources:src-team-stats"
-          ],
-          "framed_as": "what the record means for this assignment",
-          "text": "A seven-unit rent-controlled building in Sunset Park is bought by a specific kind of owner: one who already holds small Westside buildings, understands the Santa Monica registry, and prices the two long-term tenancies as future upside rather than a problem. That buyer is on a list, not on a portal, and the list is what {closed} closings and {volume} in volume across {geo} have built."
-        },
         {
           "id": "channel-title-1",
           "claim_type": "broker_opinion",
@@ -1390,7 +1314,7 @@
             "comps-sale:sale-1"
           ],
           "framed_as": "recommended positioning",
-          "text": "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.24% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it."
+          "text": "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.16% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it."
         },
         {
           "id": "strategy-2",
@@ -1449,26 +1373,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.24% cap rate and 11.93 GRM on current income at the recommended price, 6.51% at underwritten market rents"
-        },
-        {
-          "id": "highlight-4",
-          "claim_type": "derived_calculation",
-          "support_refs": [
-            "comps-rent:conclusions",
-            "financials:t12"
-          ],
-          "framed_as": null,
-          "text": "16% scheduled rent upside on turnover, concentrated in two long-term one-bedroom tenancies at $1,712 and $1,757"
-        },
-        {
-          "id": "highlight-5",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-assessor"
-          ],
-          "framed_as": null,
-          "text": "Family ownership since at least 1975 with a 1975 Proposition 13 base year and no recorded market sale on title"
+          "text": "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents"
         },
         {
           "id": "highlight-6",
@@ -1488,17 +1393,7 @@
             "deal:unit_count"
           ],
           "framed_as": null,
-          "text": "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A. Title has not changed hands in a market sale since the 1975 base year; the recorded transfers since then are a spousal transfer, a trust transfer and a file correction."
-        },
-        {
-          "id": "overview-2",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-owner-docs",
-            "financials:rent_roll"
-          ],
-          "framed_as": null,
-          "text": "The February 27, 2026 rent roll shows all seven units occupied at $1,711.73 to $3,000 per month, $17,107.19 in total. Leasing history supports a mix of one and two bedrooms; the analysis carries four two bedrooms and three one bedrooms pending ownership's confirmation. The building has an on-site laundry room that produced about $100 per month, storage, gas ranges, hardwood floors and non-assigned parking at the rear."
+          "text": "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A."
         },
         {
           "id": "overview-3",
@@ -1508,7 +1403,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.24% return on current income and 6.51% at underwritten market rents. The closed Sunset Park sales of the past fourteen months ran $310,000 to $458,000 per unit and $367 to $528 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
         },
         {
           "id": "location-title-1",
@@ -1546,37 +1441,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion on submarket demand",
-          "text": "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: nine five to twelve unit sales closed in the ZIP between June 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
-        },
-        {
-          "id": "physical-1",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-assessor",
-            "deal:building_sf"
-          ],
-          "framed_as": null,
-          "text": "The building is a two-story wood-frame and stucco structure of 5,682 SF on a 6,603 SF corner lot, built 1953. The street elevation on Ocean Park Blvd carries a decorative wrought-iron screen, a flagstone planter and a lawn; the 9th St side holds the exterior stair and the gated parking area at the rear. The county records seven units and no per-unit areas."
-        },
-        {
-          "id": "physical-2",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-listing-portal",
-            "sources:src-owner-docs"
-          ],
-          "framed_as": null,
-          "text": "Leasing history describes the units as one and two bedrooms with gas ranges, hardwood floors and, in the units turned most recently, new paint, new kitchens and remodeled baths; one two bedroom was advertised at 850 SF with central air. The building has a common laundry room, storage space and non-assigned on-site parking with one space offered per unit. Unit square footages are not published by the county or ownership and are omitted from this analysis."
-        },
-        {
-          "id": "physical-3",
-          "claim_type": "broker_opinion",
-          "support_refs": [
-            "sources:src-owner-docs",
-            "pricing:risks"
-          ],
-          "framed_as": "broker opinion on condition and operations",
-          "text": "A 1953 building under one family's ownership for fifty years will be underwritten by buyers on what has not been done as much as what has. Ownership's schedule shows a well-run building with modest bills, but it is one month of expenses rather than a year, and the seismic retrofit status, roof, plumbing and electrical service should be documented before launch. This analysis carries repairs at $800 per unit and reserves at $250 per unit rather than the owner's actual cost."
+          "text": "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: eight five to twelve unit sales closed in the ZIP between December 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
         },
         {
           "id": "market-1",
@@ -1587,7 +1452,7 @@
             "comps-sale:sale-2"
           ],
           "framed_as": null,
-          "text": "Nine closed sales of five to twelve unit buildings in 90405 since June 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026."
+          "text": "Eight closed sales of five to twelve unit buildings in 90405 since December 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026."
         },
         {
           "id": "market-2",
@@ -1652,7 +1517,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "buyer profile",
-          "text": "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.24% yield is exactly the identification that pool makes."
+          "text": "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.16% yield is exactly the identification that pool makes."
         },
         {
           "id": "profile-3",
@@ -1672,7 +1537,7 @@
             "comps-rent:rent-14"
           ],
           "framed_as": null,
-          "text": "Rent evidence is read plan by plan. Seven one-bedroom listings in Sunset Park run $2,190 to $2,900 and average $2,591, with the two on Ocean Park Blvd at $2,875 and $2,900 and an unrenovated 700 SF unit two blocks away at $2,190. Eight two-bedroom listings run $2,795 to $3,800 and average $3,154; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450."
+          "text": "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450."
         },
         {
           "id": "rent-2",
@@ -1693,7 +1558,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $71,998, including taxes reassessed at the list price, produce net operating income of $128,327, a 5.24% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $159,535 and the cap rate 6.51%. The price is $350,000 per unit and $431 per SF."
+          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF."
         },
         {
           "id": "valuation-2",
@@ -1713,7 +1578,7 @@
             "sources:src-owner-docs"
           ],
           "framed_as": null,
-          "text": "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506), gardening ($2,400) and pest control ($1,261) are ownership's March 2026 bills annualized. Insurance is the LAAA allowance of $7,082 against a current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid."
+          "text": "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid."
         },
         {
           "id": "disclosure-2",
@@ -1733,11 +1598,6 @@
     "copy": {
       "deal_id": "829-ocean-park",
       "blocks": {
-        "track_record": {
-          "narrative": [
-            "A seven-unit rent-controlled building in Sunset Park is bought by a specific kind of owner: one who already holds small Westside buildings, understands the Santa Monica registry, and prices the two long-term tenancies as future upside rather than a problem. That buyer is on a list, not on a portal, and the list is what {closed} closings and {volume} in volume across {geo} have built."
-          ]
-        },
         "marketing": {
           "channel_titles": [
             "Direct Owner and Investor Outreach",
@@ -1757,7 +1617,7 @@
             "Have the Registry and the Bills Ready Before Launch"
           ],
           "strategy_copy": [
-            "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.24% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it.",
+            "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.16% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it.",
             "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,500. That is roughly $1,500 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy.",
             "The documents a Santa Monica buyer asks for on the first call are the Rent Control Board registration for each unit, twelve months of bills, and the seismic retrofit status. Ownership has provided a rent roll and one month of expenses. Assembling the registry printout, a trailing statement and the City's retrofit letter before launch removes the three questions that stall escrows on buildings of this vintage."
           ],
@@ -1769,15 +1629,12 @@
           "highlights": [
             "Seven units on a 6,603 SF corner lot at Ocean Park Blvd and 9th St, built 1953, 5,682 SF per the county",
             "100% occupied at $17,107 per month scheduled, $205,286 per year, with no vacant units on the February 2026 rent roll",
-            "5.24% cap rate and 11.93 GRM on current income at the recommended price, 6.51% at underwritten market rents",
-            "16% scheduled rent upside on turnover, concentrated in two long-term one-bedroom tenancies at $1,712 and $1,757",
-            "Family ownership since at least 1975 with a 1975 Proposition 13 base year and no recorded market sale on title",
+            "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents",
             "Walk Score 87 and Bike Score 88, one mile to Main Street and the beach, with on-site laundry and parking"
           ],
           "overview": [
-            "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A. Title has not changed hands in a market sale since the 1975 base year; the recorded transfers since then are a spousal transfer, a trust transfer and a file correction.",
-            "The February 27, 2026 rent roll shows all seven units occupied at $1,711.73 to $3,000 per month, $17,107.19 in total. Leasing history supports a mix of one and two bedrooms; the analysis carries four two bedrooms and three one bedrooms pending ownership's confirmation. The building has an on-site laundry room that produced about $100 per month, storage, gas ranges, hardwood floors and non-assigned parking at the rear.",
-            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.24% return on current income and 6.51% at underwritten market rents. The closed Sunset Park sales of the past fourteen months ran $310,000 to $458,000 per unit and $367 to $528 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+            "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A.",
+            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
           ]
         },
         "location": {
@@ -1787,19 +1644,12 @@
           "narrative": [
             "The property sits at the corner of Ocean Park Blvd and 9th St, between Lincoln Blvd and the Ocean Park neighborhood, in the 90405 ZIP code. Ocean Park Blvd runs west to Main Street and the beach in about a mile and east to Santa Monica College and the Expo Line's 17th Street station. Lincoln Blvd, one block west, carries the retail corridor from Rose Avenue to downtown Santa Monica, and Whole Foods, Trader Joe's and Santa Monica Airport Park are all within ten minutes.",
             "The 90405 ZIP code reports 27,298 residents with a median age of 43.1 and a median household income of $121,241, and 69% of its households rent. Median gross rent is $2,417. The parcel scores 87 on Walk Score, 57 on Transit Score and 88 on Bike Score, and sits in FEMA Zone X, an area of minimal flood hazard. HUD's 2026 small-area fair market rents for the ZIP are $2,850 for a one bedroom and $3,550 for a two bedroom.",
-            "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: nine five to twelve unit sales closed in the ZIP between June 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
-          ]
-        },
-        "property_details": {
-          "physical_narrative": [
-            "The building is a two-story wood-frame and stucco structure of 5,682 SF on a 6,603 SF corner lot, built 1953. The street elevation on Ocean Park Blvd carries a decorative wrought-iron screen, a flagstone planter and a lawn; the 9th St side holds the exterior stair and the gated parking area at the rear. The county records seven units and no per-unit areas.",
-            "Leasing history describes the units as one and two bedrooms with gas ranges, hardwood floors and, in the units turned most recently, new paint, new kitchens and remodeled baths; one two bedroom was advertised at 850 SF with central air. The building has a common laundry room, storage space and non-assigned on-site parking with one space offered per unit. Unit square footages are not published by the county or ownership and are omitted from this analysis.",
-            "A 1953 building under one family's ownership for fifty years will be underwritten by buyers on what has not been done as much as what has. Ownership's schedule shows a well-run building with modest bills, but it is one month of expenses rather than a year, and the seismic retrofit status, roof, plumbing and electrical service should be documented before launch. This analysis carries repairs at $800 per unit and reserves at $250 per unit rather than the owner's actual cost."
+            "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: eight five to twelve unit sales closed in the ZIP between December 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
           ]
         },
         "buyer_profile": {
           "market_narrative": [
-            "Nine closed sales of five to twelve unit buildings in 90405 since June 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026.",
+            "Eight closed sales of five to twelve unit buildings in 90405 since December 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026.",
             "The active listings are the other half of the picture. 2648 23rd St, an eight-unit 1949 building with the same one and two bedroom mix and seven renovated units, asks $3.2M at a published 5.50% cap. 1937 17th St, a six-unit 1948 building with two vacancies, asks $2.25M at 5.00%. The subject at $2.45M sits between them on price, below both on price per square foot, and offers a fully occupied roll that neither does."
           ],
           "positioning_narrative": [
@@ -1812,37 +1662,28 @@
           ],
           "profile_copy": [
             "Owners who already hold five to fifteen unit buildings in Santa Monica, Venice and Mar Vista, including the buyers on the Maple, 20th Street and Grant Street sales this year. They know the registry, the General Adjustment and the tenant base, and they buy on yield against a known turnover path.",
-            "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.24% yield is exactly the identification that pool makes.",
+            "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.16% yield is exactly the identification that pool makes.",
             "Families and individuals who buy Santa Monica apartments to hold for decades, the same profile as the current ownership. They pay for location and tenant stability rather than the first-year yield, and they are the buyers most likely to reach the top of the range."
           ]
         },
         "rent_comps": {
           "narrative": [
-            "Rent evidence is read plan by plan. Seven one-bedroom listings in Sunset Park run $2,190 to $2,900 and average $2,591, with the two on Ocean Park Blvd at $2,875 and $2,900 and an unrenovated 700 SF unit two blocks away at $2,190. Eight two-bedroom listings run $2,795 to $3,800 and average $3,154; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
+            "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
             "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
           ]
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $71,998, including taxes reassessed at the list price, produce net operating income of $128,327, a 5.24% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $159,535 and the cap rate 6.51%. The price is $350,000 per unit and $431 per SF.",
+            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF.",
             "Against the evidence, the price is disciplined. It sits inside the closed per-unit range, inside the closed per-square-foot range, at a yield between the 5.00% Pacific St sale and the 5.87% Maple St sale, and at a multiplier between Maple and 20th Street. The reasons it is not higher are the same reasons it is defensible: two units 30% under market that recover only on turnover, a one-month expense record, and a 1953 building whose retrofit status is not yet documented. A buyer who underwrites the turnover will pay the top of the range; a buyer who prices it out will pay the bottom."
           ],
           "disclosures": [
-            "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506), gardening ($2,400) and pest control ($1,261) are ownership's March 2026 bills annualized. Insurance is the LAAA allowance of $7,082 against a current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
+            "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
             "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
           ]
         }
       },
       "claims": [
-        {
-          "id": "track-1",
-          "claim_type": "broker_opinion",
-          "support_refs": [
-            "sources:src-team-stats"
-          ],
-          "framed_as": "what the record means for this assignment",
-          "text": "A seven-unit rent-controlled building in Sunset Park is bought by a specific kind of owner: one who already holds small Westside buildings, understands the Santa Monica registry, and prices the two long-term tenancies as future upside rather than a problem. That buyer is on a list, not on a portal, and the list is what {closed} closings and {volume} in volume across {geo} have built."
-        },
         {
           "id": "channel-title-1",
           "claim_type": "broker_opinion",
@@ -1950,7 +1791,7 @@
             "comps-sale:sale-1"
           ],
           "framed_as": "recommended positioning",
-          "text": "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.24% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it."
+          "text": "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.16% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it."
         },
         {
           "id": "strategy-2",
@@ -2009,26 +1850,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.24% cap rate and 11.93 GRM on current income at the recommended price, 6.51% at underwritten market rents"
-        },
-        {
-          "id": "highlight-4",
-          "claim_type": "derived_calculation",
-          "support_refs": [
-            "comps-rent:conclusions",
-            "financials:t12"
-          ],
-          "framed_as": null,
-          "text": "16% scheduled rent upside on turnover, concentrated in two long-term one-bedroom tenancies at $1,712 and $1,757"
-        },
-        {
-          "id": "highlight-5",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-assessor"
-          ],
-          "framed_as": null,
-          "text": "Family ownership since at least 1975 with a 1975 Proposition 13 base year and no recorded market sale on title"
+          "text": "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents"
         },
         {
           "id": "highlight-6",
@@ -2048,17 +1870,7 @@
             "deal:unit_count"
           ],
           "framed_as": null,
-          "text": "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A. Title has not changed hands in a market sale since the 1975 base year; the recorded transfers since then are a spousal transfer, a trust transfer and a file correction."
-        },
-        {
-          "id": "overview-2",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-owner-docs",
-            "financials:rent_roll"
-          ],
-          "framed_as": null,
-          "text": "The February 27, 2026 rent roll shows all seven units occupied at $1,711.73 to $3,000 per month, $17,107.19 in total. Leasing history supports a mix of one and two bedrooms; the analysis carries four two bedrooms and three one bedrooms pending ownership's confirmation. The building has an on-site laundry room that produced about $100 per month, storage, gas ranges, hardwood floors and non-assigned parking at the rear."
+          "text": "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A."
         },
         {
           "id": "overview-3",
@@ -2068,7 +1880,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.24% return on current income and 6.51% at underwritten market rents. The closed Sunset Park sales of the past fourteen months ran $310,000 to $458,000 per unit and $367 to $528 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
         },
         {
           "id": "location-title-1",
@@ -2106,37 +1918,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion on submarket demand",
-          "text": "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: nine five to twelve unit sales closed in the ZIP between June 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
-        },
-        {
-          "id": "physical-1",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-assessor",
-            "deal:building_sf"
-          ],
-          "framed_as": null,
-          "text": "The building is a two-story wood-frame and stucco structure of 5,682 SF on a 6,603 SF corner lot, built 1953. The street elevation on Ocean Park Blvd carries a decorative wrought-iron screen, a flagstone planter and a lawn; the 9th St side holds the exterior stair and the gated parking area at the rear. The county records seven units and no per-unit areas."
-        },
-        {
-          "id": "physical-2",
-          "claim_type": "verified_fact",
-          "support_refs": [
-            "sources:src-listing-portal",
-            "sources:src-owner-docs"
-          ],
-          "framed_as": null,
-          "text": "Leasing history describes the units as one and two bedrooms with gas ranges, hardwood floors and, in the units turned most recently, new paint, new kitchens and remodeled baths; one two bedroom was advertised at 850 SF with central air. The building has a common laundry room, storage space and non-assigned on-site parking with one space offered per unit. Unit square footages are not published by the county or ownership and are omitted from this analysis."
-        },
-        {
-          "id": "physical-3",
-          "claim_type": "broker_opinion",
-          "support_refs": [
-            "sources:src-owner-docs",
-            "pricing:risks"
-          ],
-          "framed_as": "broker opinion on condition and operations",
-          "text": "A 1953 building under one family's ownership for fifty years will be underwritten by buyers on what has not been done as much as what has. Ownership's schedule shows a well-run building with modest bills, but it is one month of expenses rather than a year, and the seismic retrofit status, roof, plumbing and electrical service should be documented before launch. This analysis carries repairs at $800 per unit and reserves at $250 per unit rather than the owner's actual cost."
+          "text": "Sunset Park is one of the few Westside submarkets where small buildings still trade in volume: eight five to twelve unit sales closed in the ZIP between December 2025 and August 2026, including one on the subject's own block. Buyers here are choosing among 1930s to 1970s walk-ups at similar yields, which is why the evidence for this pricing is direct rather than inferred from other neighborhoods."
         },
         {
           "id": "market-1",
@@ -2147,7 +1929,7 @@
             "comps-sale:sale-2"
           ],
           "framed_as": null,
-          "text": "Nine closed sales of five to twelve unit buildings in 90405 since June 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026."
+          "text": "Eight closed sales of five to twelve unit buildings in 90405 since December 2025 frame the subject. The five to seven unit sales closed at $2,170,000 to $2,525,000, and where income was reported, at cap rates of 5.00% to 6.07% and multipliers of 11.58 to 12.89. The two most instructive are 824 Maple St, directly behind the subject, at $2,525,000 and a 5.87% cap in May 2026, and 2332 20th St, a 1959 six-unit of similar mix, at $2,210,000 and a 6.07% cap in July 2026."
         },
         {
           "id": "market-2",
@@ -2212,7 +1994,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "buyer profile",
-          "text": "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.24% yield is exactly the identification that pool makes."
+          "text": "Sellers trading out of larger or more management-intensive assets into a Westside replacement property under a 45-day identification clock. The 2332 20th St buyer in July was completing an exchange, and a fully occupied Santa Monica corner building at a 5.16% yield is exactly the identification that pool makes."
         },
         {
           "id": "profile-3",
@@ -2232,7 +2014,7 @@
             "comps-rent:rent-14"
           ],
           "framed_as": null,
-          "text": "Rent evidence is read plan by plan. Seven one-bedroom listings in Sunset Park run $2,190 to $2,900 and average $2,591, with the two on Ocean Park Blvd at $2,875 and $2,900 and an unrenovated 700 SF unit two blocks away at $2,190. Eight two-bedroom listings run $2,795 to $3,800 and average $3,154; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450."
+          "text": "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450."
         },
         {
           "id": "rent-2",
@@ -2253,7 +2035,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $71,998, including taxes reassessed at the list price, produce net operating income of $128,327, a 5.24% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $159,535 and the cap rate 6.51%. The price is $350,000 per unit and $431 per SF."
+          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF."
         },
         {
           "id": "valuation-2",
@@ -2273,7 +2055,7 @@
             "sources:src-owner-docs"
           ],
           "framed_as": null,
-          "text": "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506), gardening ($2,400) and pest control ($1,261) are ownership's March 2026 bills annualized. Insurance is the LAAA allowance of $7,082 against a current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid."
+          "text": "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid."
         },
         {
           "id": "disclosure-2",
@@ -2398,29 +2180,29 @@
   "approval_binding": {
     "deal_id": "829-ocean-park",
     "domains": {
-      "identity": "0840a7e35eff7a9a0555256f13bd94feb35878531e2c8b8535fdf1d68b2cb95e",
-      "financial_inputs": "40577deb066f8b67e91bdd77ce144aa18cd45f2dc1bdf5b3358db910969d9d36",
-      "pricing_decision": "4a8a11d065e2ce82c2e56072200a90179ecdb6804fcf19b6c85986fe5bde9476",
-      "sale_comps": "78360abae97efeb885e061ff6dae39da08c223c4d1c51ab513b9b8511f329e27",
-      "rent_comps": "eda109acbe1c1f5fe3360dfdf7ba08432b8810555085400c59a272134314236b",
-      "copy": "0cd55f4b62dd12d537d7c6c080d4550ec476fb04d1d47614af2302a6f14671fb",
+      "identity": "4ba021873295c191d82f0ca6cede394e79acc89dbf77f030e84b23df042d188f",
+      "financial_inputs": "56c7a7d946f80eabdb76365ea0429c94e7046d04b796a49b6ffcbe44596b849d",
+      "pricing_decision": "e32121425e2c1624106ef3a242d6b032c8e4a00e0fdeb21c0112841aeecf131a",
+      "sale_comps": "501b4d0dd11f83e3f89d4a8a42c17ba499697095174fe5dfb742b1aea689c8fd",
+      "rent_comps": "1347e3848c045980fb051c92494d0d59bc04fb812e3e0749fac9fd607f9b0b34",
+      "copy": "cb6e5238a2b5b0a946dd76b5fc6efd3e59076382d2c42eef88ec9c9ab7f066fb",
       "media_selection": "5d6af8cf72e794d42fa8e44fef9cac743a42726b713822eda702327db8c9dd37",
       "regulatory_conclusions": "06c7d6e3d0ca90b9b4834b1951df7368ab805b9c52365d84c3965429802178be"
     },
     "presentation_hashes": {
-      "identity": "450bf03c9181d54f2b71fb0d2575090709eaf1d9e86c53396e4a719fe9bd8216",
-      "financial_inputs": "e00285dcb77e252ec45bcb9f93c0052d3c601738a382781b3440ae61d60515d9",
-      "pricing_decision": "25e589a00dd8be6be129eed4ca5133d9e77564bf827a082ec6109143bb79b9ee",
-      "sale_comps": "9618c2e4062ed3d7098f8e0964651e4dc42512291d0465f0aff478efe9be5971",
-      "rent_comps": "620c7e080a217184ead9650c0e428e694d26b04ee57c82d26f29828cb45f1590",
-      "copy": "7791b4e5bb67657dae36793a99172d2044be7b6b2361a6f5fbe9d39795a9b173",
+      "identity": "f5cb7c541ba494b3ca97d8a09010e690e7139fe84c515f1da4c2db936829dfb8",
+      "financial_inputs": "422ee59760deea0163660c35ed6406bc8189f0bfda99491f0b97d336dd161f4c",
+      "pricing_decision": "b227dca7ece873a40e26836fc5d94e13242dd998677e222523bacddd874fed4e",
+      "sale_comps": "acedb6fc48b217833955284ecff68a9c521f5e39b2d755198d0aae815c3d87d2",
+      "rent_comps": "6cd3d6b108d1128c905dd974da8e5274ed90e2c45b388ed79efb7bb7a703a123",
+      "copy": "e9eb741a4b750811052d95c600bd57d7585f227a11a83eb7b05b64733136d260",
       "media_selection": "d439b771999a45616f94451414abdbe93ac6722bfc16337933e117d831e1ef8d",
       "regulatory_conclusions": "6b2432c192e092964ded3dc672472e432598289801f9cefac5427691fc3787e0"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-02T20:40:26+00:00",
+    "generated": "2026-09-02T22:00:52+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

@@ -509,6 +509,14 @@
               "description": "What the arithmetic does and does not assume."
             }
           }
+        },
+        "track_record_representative": {
+          "description": "OPTIONAL. How the three named 'Representative Local Closings' are chosen from the local scope. Default 'balanced' is the equal-weight distance/unit-similarity/recency rank. 'recent' names the most recent closings in the scope (year, then distance, then address), for a seller who asked to see the latest LAAA closings in their city (Aida, 829 Ocean Park, 2026-09-02). Either way the rows come from the same scope as the local count and the map.",
+          "type": "string",
+          "enum": [
+            "balanced",
+            "recent"
+          ]
         }
       },
       "allOf": [

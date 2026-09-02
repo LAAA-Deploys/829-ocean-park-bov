@@ -640,7 +640,7 @@ def presentation_projections(payload: dict) -> dict[str, Any]:
     properties = payload.get("properties") or []
     identity_fields = (
         "slug", "short_name", "address", "city", "submarket",
-        "track_record_submarkets", "apn", "units",
+        "track_record_submarkets", "track_record_representative", "apn", "units",
         "building_sf", "lot_sf", "lot_acres", "year_built", "renovated_year",
         "parking", "maps",
     )
@@ -1187,6 +1187,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "city": presentation["city"],
         "submarket": presentation["submarket"],
         "track_record_submarkets": presentation.get("track_record_submarkets"),
+        "track_record_representative": presentation.get("track_record_representative"),
         "apn": ", ".join(deal["apns"]),
         "units": units,
         "building_sf": building_sf,
@@ -1256,7 +1257,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "overview": _paragraphs(copy, "investment", "overview"),
         "location_title": _one(copy, "location", "title"),
         "location_narrative": _paragraphs(copy, "location", "narrative"),
-        "physical_narrative": _paragraphs(copy, "property_details", "physical_narrative"),
+        "physical_narrative": _paragraphs(copy, "property_details", "physical_narrative", required=False),
         "market_narrative": _paragraphs(copy, "buyer_profile", "market_narrative"),
         "positioning_narrative": _paragraphs(copy, "buyer_profile", "positioning_narrative"),
         "rent_narrative": _paragraphs(copy, "rent_comps", "narrative"),
@@ -1297,7 +1298,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "team": _resolved_team(presentation["team"]),
         "track_record": {
             "metrics": [["{closed}", "Closed Transactions"], ["{volume}", "Total Sales Volume"], ["{apt_units}", "Apartment Units Sold"]],
-            "narrative": _paragraphs(copy, "track_record", "narrative"),
+            "narrative": _paragraphs(copy, "track_record", "narrative", required=False),
             "achievements": _achievement_pairs(
                 _paragraphs(copy, "track_record", "achievements", required=False)
             ),

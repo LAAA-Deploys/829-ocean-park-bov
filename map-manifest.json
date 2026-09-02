@@ -13,13 +13,24 @@
     {
       "property": "829-ocean-park",
       "category": "sold",
-      "lat": 34.007849,
-      "lng": -118.476613,
-      "place_id": "census:4284-008-011",
+      "lat": 34.015697,
+      "lng": -118.46618,
+      "place_id": "census:4273-018-014",
       "precision": "ROOFTOP",
       "needs_review": false,
-      "source_note": "824 Maple St, Santa Monica. CoStar sale comp 7629441 (AIN 4284-008-011); deed recorded 2026-05-07 per LAAA Comps, verified 2026-09-02.",
+      "source_note": "2411 20th St, Santa Monica. CoStar sale comp 7790962 (AIN 4273-018-014), verified 2026-09-02.",
       "order": 1
+    },
+    {
+      "property": "829-ocean-park",
+      "category": "sold",
+      "lat": 34.013996,
+      "lng": -118.471269,
+      "place_id": "census:4284-038-031",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2318 16th St, Santa Monica. CoStar sale comp 7764303 (AIN 4284-038-031), verified 2026-09-02.",
+      "order": 2
     },
     {
       "property": "829-ocean-park",
@@ -30,7 +41,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "2332 20th St, Santa Monica. CoStar sale comp 7768906 (AIN 4273-021-014), verified 2026-09-02.",
-      "order": 2
+      "order": 3
     },
     {
       "property": "829-ocean-park",
@@ -41,7 +52,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "711 Grant St, Santa Monica. CoStar sale comp 7744785 (AIN 4289-002-014), verified 2026-09-02.",
-      "order": 3
+      "order": 4
     },
     {
       "property": "829-ocean-park",
@@ -52,17 +63,6 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "1044 Pacific St, Santa Monica. CoStar sale comp 7721887 (AIN 4284-013-009), verified 2026-09-02.",
-      "order": 4
-    },
-    {
-      "property": "829-ocean-park",
-      "category": "sold",
-      "lat": 34.015697,
-      "lng": -118.46618,
-      "place_id": "census:4273-018-014",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "source_note": "2411 20th St, Santa Monica. CoStar sale comp 7790962 (AIN 4273-018-014), verified 2026-09-02.",
       "order": 5
     },
     {
@@ -79,35 +79,24 @@
     {
       "property": "829-ocean-park",
       "category": "sold",
+      "lat": 34.007849,
+      "lng": -118.476613,
+      "place_id": "census:4284-008-011",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "824 Maple St, Santa Monica. CoStar sale comp 7629441 (AIN 4284-008-011); deed recorded 2026-05-07 per LAAA Comps, verified 2026-09-02.",
+      "order": 7
+    },
+    {
+      "property": "829-ocean-park",
+      "category": "sold",
       "lat": 34.026593,
       "lng": -118.453613,
       "place_id": "census:4270-009-035",
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "2336 34th St, Santa Monica. CoStar sale comp 7454099 (AIN 4270-009-035), verified 2026-09-02.",
-      "order": 7
-    },
-    {
-      "property": "829-ocean-park",
-      "category": "sold",
-      "lat": 34.001077,
-      "lng": -118.480234,
-      "place_id": "lacounty:4287-023-014",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "source_note": "2820 3rd St, Santa Monica. LAAA Comps deed record (AIN 4287-023-014), recorded 2025-06-27, verified 2026-09-02.",
       "order": 8
-    },
-    {
-      "property": "829-ocean-park",
-      "category": "sold",
-      "lat": 34.013996,
-      "lng": -118.471269,
-      "place_id": "census:4284-038-031",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "source_note": "2318 16th St, Santa Monica. CoStar sale comp 7764303 (AIN 4284-038-031), verified 2026-09-02.",
-      "order": 9
     },
     {
       "property": "829-ocean-park",
@@ -211,24 +200,13 @@
     {
       "property": "829-ocean-park",
       "category": "rent",
-      "lat": 34.008437,
-      "lng": -118.473553,
-      "place_id": "census:1112-ocean-park",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "source_note": "1112 Ocean Park Blvd, Santa Monica. Apartments.com, 1112 Ocean Park Blvd Unit F one bedroom, verified 2026-09-02.",
-      "order": 7
-    },
-    {
-      "property": "829-ocean-park",
-      "category": "rent",
       "lat": 34.018709,
       "lng": -118.473794,
       "place_id": "census:2015-17th",
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "2015 17th St, Santa Monica. Apartments.com, 2015 17th St two bedroom, verified 2026-09-02.",
-      "order": 8
+      "order": 7
     },
     {
       "property": "829-ocean-park",
@@ -239,7 +217,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "2240 28th St, Santa Monica. Apartments.com, 2240 28th St Unit D two bedroom, verified 2026-09-02.",
-      "order": 9
+      "order": 8
     },
     {
       "property": "829-ocean-park",
@@ -250,7 +228,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "1846 10th St, Santa Monica. Apartments.com, 1846 10th St Unit I two bedroom, verified 2026-09-02.",
-      "order": 10
+      "order": 9
     },
     {
       "property": "829-ocean-park",
@@ -261,7 +239,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "2426 20th St, Santa Monica. Apartments.com, 2426 20th St Unit B two bedroom, verified 2026-09-02.",
-      "order": 11
+      "order": 10
     },
     {
       "property": "829-ocean-park",
@@ -272,7 +250,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "1948 20th St, Santa Monica. Apartments.com, 1948 20th St two bedroom, verified 2026-09-02.",
-      "order": 12
+      "order": 11
     },
     {
       "property": "829-ocean-park",
@@ -283,7 +261,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "1315 Ocean Park Blvd, Santa Monica. Apartments.com, 1315 Ocean Park Blvd two bedroom, verified 2026-09-02.",
-      "order": 13
+      "order": 12
     },
     {
       "property": "829-ocean-park",
@@ -294,18 +272,7 @@
       "precision": "ROOFTOP",
       "needs_review": false,
       "source_note": "817 Hill St, Santa Monica. Apartments.com, 817 Hill St two bedroom, verified 2026-09-02.",
-      "order": 14
-    },
-    {
-      "property": "829-ocean-park",
-      "category": "rent",
-      "lat": 34.008437,
-      "lng": -118.473553,
-      "place_id": "census:1112-ocean-park",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "source_note": "1112 Ocean Park Blvd, Santa Monica. Apartments.com, 1112 Ocean Park Blvd Unit D two bedroom, verified 2026-09-02.",
-      "order": 15
+      "order": 13
     }
   ],
   "renders": {
@@ -313,26 +280,25 @@
     "images/maps-portfolio-subjects-tall.png": "4bbf7c0fc0a1a6b38965f9478f37fdb1418b30f2aa36d15c3cb12632ca83832f",
     "images/maps-829-ocean-park-subject.png": "c11019f9aa3cedd625d4601d01123e898fe7b68631f970048e048297e24e3c22",
     "images/maps-829-ocean-park-subject-tall.png": "bc2e7bd4dc75adc4d62af6b401ee6d0df91d233e577c6d1ac69c2f2a7a50ee2c",
-    "images/maps-829-ocean-park-sale-comps.png": "c2fb3c9119d01f2a378634a4215b83f18e7b9cd52af6bf18fc1a780e0037645d",
-    "images/maps-829-ocean-park-sale-comps-tall.png": "49634fb9739146bb232a60c6dee953441637b76ed49d172670b4b6b225a1ce5d",
-    "images/maps-829-ocean-park-rent-comps.png": "3686b5f71471c28294f70f8b88199745398a2f1fd802133cf57538bfa714b060",
-    "images/maps-829-ocean-park-rent-comps-tall.png": "33664dc3b58c27ce1be626a7e36617f3d8e4abe24bd4dae14d91fbbbdceb87c0",
+    "images/maps-829-ocean-park-sale-comps.png": "659212d0cd91564a84f6508adb86b79d8cf70855e17b3c862766c5cddb914c0e",
+    "images/maps-829-ocean-park-sale-comps-tall.png": "94839747ea1be911c6e4ad881258c8d1e5d561f6022e5809d1519b2db7194184",
+    "images/maps-829-ocean-park-rent-comps.png": "33480cec432e345fcc83e38399b61ec4ca40d081e0b99b7102b1a4e9023aa250",
+    "images/maps-829-ocean-park-rent-comps-tall.png": "bdbe034b85059c150ae55facfe3f3f6a5123f18a9e8d76251dcef6c07e496541",
     "images/maps-829-ocean-park-active-comps.png": "711110a2197dcc192996b99d9d260926f3d21a5c51293a97ecaad38f25cbed37",
     "images/maps-829-ocean-park-active-comps-tall.png": "283772ed673d25afa0991796dcab6d0704f923bc91588f5dbe7cc6d956a79ca5",
-    "images/maps-829-ocean-park-closings.png": "3f60485928071d8187c9c15f421814c808275be1a3761b49849ce30608572f41"
+    "images/maps-829-ocean-park-closings.png": "99152ab9197915d0ae20fbe91e77707fefac3b310d92793bb360b46e02f34a53"
   },
   "closings": {
     "829-ocean-park": {
       "source": "https://www.laaa.com/track-record",
-      "pulled": "2026-09-02T20:12:27+00:00",
+      "pulled": "2026-09-02T21:57:46+00:00",
       "basis": {
-        "type": "radius",
-        "label": "within 1 miles",
-        "radius_mi": 1
+        "type": "submarket",
+        "label": "Santa Monica"
       },
-      "apartment_sales": 8,
+      "apartment_sales": 19,
       "other_closings": 2,
-      "apartment_markers": 7,
+      "apartment_markers": 17,
       "other_markers": 2,
       "render": "images/maps-829-ocean-park-closings.png"
     }

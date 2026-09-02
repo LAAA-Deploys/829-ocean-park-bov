@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "829-ocean-park",
   "portfolio_id": null,
-  "package_version": "v6",
-  "approved_at": "2026-09-02T20:40:04.462122+00:00",
+  "package_version": "v8",
+  "approved_at": "2026-09-02T22:00:32.714984+00:00",
   "approver": "Filip Niculete",
   "price": {
     "value": 2450000
@@ -25,28 +25,28 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "0cd55f4b62dd12d537d7c6c080d4550ec476fb04d1d47614af2302a6f14671fb"
+      "content_sha256": "cb6e5238a2b5b0a946dd76b5fc6efd3e59076382d2c42eef88ec9c9ab7f066fb"
     },
     "financial_inputs": {
-      "content_sha256": "40577deb066f8b67e91bdd77ce144aa18cd45f2dc1bdf5b3358db910969d9d36"
+      "content_sha256": "56c7a7d946f80eabdb76365ea0429c94e7046d04b796a49b6ffcbe44596b849d"
     },
     "identity": {
-      "content_sha256": "0840a7e35eff7a9a0555256f13bd94feb35878531e2c8b8535fdf1d68b2cb95e"
+      "content_sha256": "4ba021873295c191d82f0ca6cede394e79acc89dbf77f030e84b23df042d188f"
     },
     "media_selection": {
       "content_sha256": "5d6af8cf72e794d42fa8e44fef9cac743a42726b713822eda702327db8c9dd37"
     },
     "pricing_decision": {
-      "content_sha256": "4a8a11d065e2ce82c2e56072200a90179ecdb6804fcf19b6c85986fe5bde9476"
+      "content_sha256": "e32121425e2c1624106ef3a242d6b032c8e4a00e0fdeb21c0112841aeecf131a"
     },
     "regulatory_conclusions": {
       "content_sha256": "06c7d6e3d0ca90b9b4834b1951df7368ab805b9c52365d84c3965429802178be"
     },
     "rent_comps": {
-      "content_sha256": "eda109acbe1c1f5fe3360dfdf7ba08432b8810555085400c59a272134314236b"
+      "content_sha256": "1347e3848c045980fb051c92494d0d59bc04fb812e3e0749fac9fd607f9b0b34"
     },
     "sale_comps": {
-      "content_sha256": "78360abae97efeb885e061ff6dae39da08c223c4d1c51ab513b9b8511f329e27"
+      "content_sha256": "501b4d0dd11f83e3f89d4a8a42c17ba499697095174fe5dfb742b1aea689c8fd"
     }
   },
   "legacy_snapshot": false,
