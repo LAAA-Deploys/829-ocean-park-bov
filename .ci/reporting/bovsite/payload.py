@@ -1259,12 +1259,14 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "location_narrative": _paragraphs(copy, "location", "narrative"),
         "physical_narrative": _paragraphs(copy, "property_details", "physical_narrative", required=False),
         "market_narrative": _paragraphs(copy, "buyer_profile", "market_narrative"),
-        "positioning_narrative": _paragraphs(copy, "buyer_profile", "positioning_narrative"),
+        # Optional since 11813 Iowa (Filip Niculete, 2026-09-02): a deal may drop
+        # the Positioning Thesis; the page then omits the block.
+        "positioning_narrative": _paragraphs(copy, "buyer_profile", "positioning_narrative", required=False),
         "rent_narrative": _paragraphs(copy, "rent_comps", "narrative"),
         "valuation_narrative": _paragraphs(copy, "financial_analysis", "valuation_narrative"),
         "strategy": _paired(copy, "marketing", "strategy_titles", "strategy_copy"),
         "buyer_profiles": _paired(copy, "buyer_profile", "profile_titles", "profile_copy"),
-        "disclosures": _paragraphs(copy, "financial_analysis", "disclosures"),
+        "disclosures": _paragraphs(copy, "financial_analysis", "disclosures", required=False),
         "gallery": gallery,
         "maps": {
             "subject": maps.get("subject"),

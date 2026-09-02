@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "829-ocean-park",
   "portfolio_id": null,
-  "package_version": "v11",
-  "approved_at": "2026-09-02T22:48:06.877494+00:00",
+  "package_version": "v12",
+  "approved_at": "2026-09-02T22:49:26.723582+00:00",
   "approver": "Filip Niculete",
   "price": {
     "value": 2450000
@@ -28,7 +28,7 @@
       "content_sha256": "a05adda922b2d15b364ca9392b7072e575832e509f479e0b296f528bb46c4550"
     },
     "financial_inputs": {
-      "content_sha256": "32ea0279402e8ff99c95ee567fb5b33ba0833cf12bfe6db73f68a2b168e48305"
+      "content_sha256": "ffbb5880c2286d8404c34d55284e3fa5ef286baffb3b0da5b67c49ed8ecd83ab"
     },
     "identity": {
       "content_sha256": "8ff29b1741bea67009c86a62b42b29fcc1df9ca5c49dcd671e0d7d18bee53249"

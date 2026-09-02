@@ -222,9 +222,9 @@
           "price_per_unit": 350000.0,
           "price_per_sf": 431.18620204153467,
           "grm_current": 11.934553054397986,
-          "grm_market": 10.25963149078727,
+          "grm_market": 10.47008547008547,
           "cap_current": 5.156816326530612,
-          "cap_market": 6.43061224489796
+          "cap_market": 6.248163265306123
         },
         {
           "label": "Range top",
@@ -232,9 +232,9 @@
           "price_per_unit": 364285.71428571426,
           "price_per_sf": 448.7856388595565,
           "grm_current": 12.42167766886321,
-          "grm_market": 10.678391959798995,
+          "grm_market": 10.897435897435898,
           "cap_current": 4.907382078431373,
-          "cap_market": 6.131225215686274
+          "cap_market": 5.9559310980392155
         },
         {
           "label": "Midpoint",
@@ -242,9 +242,9 @@
           "price_per_unit": 350000.0,
           "price_per_sf": 431.18620204153467,
           "grm_current": 11.934553054397986,
-          "grm_market": 10.25963149078727,
+          "grm_market": 10.47008547008547,
           "cap_current": 5.156816326530612,
-          "cap_market": 6.43061224489796
+          "cap_market": 6.248163265306123
         },
         {
           "label": "Range bottom",
@@ -252,31 +252,31 @@
           "price_per_unit": 335714.28571428574,
           "price_per_sf": 413.5867652235128,
           "grm_current": 11.44742843993276,
-          "grm_market": 9.840871021775545,
+          "grm_market": 10.042735042735043,
           "cap_current": 5.4274790212765955,
-          "cap_market": 6.755479021276596
+          "cap_market": 6.565266255319149
         }
       ],
       "scheduled_rent": [
         17107.19,
-        19900.0
+        19500.0
       ],
       "monthly_sgi": [
         17206.94,
-        19999.75
+        19599.75
       ],
       "additional_income": [
         99.75,
         99.75
       ],
       "grm_current": 11.934553054397986,
-      "grm_market": 10.25963149078727,
+      "grm_market": 10.47008547008547,
       "cap_current": 5.156816326530612,
-      "cap_market": 6.43061224489796,
+      "cap_market": 6.248163265306123,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
       "noi_current": 126342,
-      "noi_market": 157550,
+      "noi_market": 153080,
       "tax_rate": 1.203757,
       "tax_anchor": {
         "ad_valorem": 29492,
@@ -307,8 +307,8 @@
           "status": "occupied",
           "rent_current": 1756.73,
           "monthly_current": 1756.73,
-          "rent_market": 2500,
-          "monthly_market": 2500,
+          "rent_market": 2550,
+          "monthly_market": 2550,
           "sf_basis": "omitted"
         },
         {
@@ -319,8 +319,8 @@
           "status": "occupied",
           "rent_current": 1711.73,
           "monthly_current": 1711.73,
-          "rent_market": 2500,
-          "monthly_market": 2500,
+          "rent_market": 2550,
+          "monthly_market": 2550,
           "sf_basis": "omitted"
         },
         {
@@ -338,13 +338,13 @@
         {
           "unit": "Unit 5",
           "count": 1,
-          "type": "2 Bed / 1 Bath",
+          "type": "1 Bed / 1 Bath",
           "sf": null,
           "status": "occupied",
           "rent_current": 2550.0,
           "monthly_current": 2550.0,
-          "rent_market": 3100,
-          "monthly_market": 3100,
+          "rent_market": 2550,
+          "monthly_market": 2550,
           "sf_basis": "omitted"
         },
         {
@@ -355,8 +355,8 @@
           "status": "occupied",
           "rent_current": 2550.0,
           "monthly_current": 2550.0,
-          "rent_market": 2500,
-          "monthly_market": 2500,
+          "rent_market": 2550,
+          "monthly_market": 2550,
           "sf_basis": "omitted"
         },
         {
@@ -375,16 +375,16 @@
       "operating": {
         "sgi": [
           206483.28,
-          239997
+          235197
         ],
         "vacancy": [
           6158.59,
-          7164
+          7020
         ],
         "vacancy_pct": 2.9826095362297615,
         "vacancy_only": [
           6158.59,
-          7164
+          7020
         ],
         "vacancy_only_pct": 2.9826095362297615,
         "credit_loss": [
@@ -394,19 +394,19 @@
         "credit_loss_pct": 0.0,
         "goi": [
           200324.69,
-          232833
+          228177
         ],
         "expenses": [
           73983,
-          75283
+          75097
         ],
         "expense_ratio": [
           36.9315434857281,
-          32.333475065819705
+          32.91173080547119
         ],
         "noi": [
           126342,
-          157550
+          153080
         ],
         "loan_payments": [
           0.0,
@@ -414,11 +414,11 @@
         ],
         "pretax_cf": [
           126342.0,
-          157550.0
+          153080.0
         ],
         "pretax_cf_pct": [
           5.156816326530612,
-          6.43061224489796
+          6.248163265306123
         ],
         "principal_reduction": [
           0.0,
@@ -426,11 +426,11 @@
         ],
         "total_return": [
           126342.0,
-          157550.0
+          153080.0
         ],
         "total_return_pct": [
           5.156816326530612,
-          6.43061224489796
+          6.248163265306123
         ]
       },
       "expense_lines": [
@@ -497,7 +497,7 @@
         [
           "Management Fee (4.0% of EGI)",
           8013,
-          9313,
+          9127,
           "14"
         ]
       ],
@@ -548,7 +548,7 @@
         ],
         "2": [
           "Scheduled Gross Income",
-          "Seven occupied units at the rents on the February 27, 2026 ownership rent roll, $17,107.19 per month or $205,286 per year. The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, supported by the Sunset Park rent comparables, and applies only on turnover under Santa Monica vacancy decontrol."
+          "Seven occupied units at the rents on the February 27, 2026 ownership rent roll, $17,107.19 per month or $205,286 per year. The market column carries $2,550 for the one bedrooms (the rent units 5 and 6 already achieve) and $3,100 for the two bedrooms, supported by the Sunset Park rent comparables, and applies only on turnover under Santa Monica vacancy decontrol."
         ],
         "3": [
           "Vacancy Reserve",
@@ -569,12 +569,12 @@
       "highlights": [
         "Seven units on a 6,603 SF corner lot at Ocean Park Blvd and 9th St, built 1953, 5,682 SF per the county",
         "100% occupied at $17,107 per month scheduled, $205,286 per year, with no vacant units on the February 2026 rent roll",
-        "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents",
+        "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.25% at underwritten market rents",
         "Walk Score 87 and Bike Score 88, one mile to Main Street and the beach, with on-site laundry and parking"
       ],
       "overview": [
         "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A.",
-        "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+        "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.25% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
       ],
       "location_title": "Sunset Park, Santa Monica, One Mile From Main Street and the Sand",
       "location_narrative": [
@@ -592,10 +592,10 @@
       ],
       "rent_narrative": [
         "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
-        "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
+        "The market column carries $2,550 for the one bedrooms, the rent units 5 and 6 already achieve, and $3,100 for the two bedrooms, both below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases, $2,550 on two of the one bedrooms and $2,795 to $3,000 on the two bedrooms, confirm both figures are achievable without renovation. The gap between the current and market columns is $2,393 per month, and about $1,600 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
       ],
       "valuation_narrative": [
-        "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF.",
+        "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $234,000 the net operating income is $153,080 and the cap rate 6.25%. The price is $350,000 per unit and $431 per SF.",
         "Against the evidence, the price is disciplined. It sits inside the closed per-unit range, inside the closed per-square-foot range, at a yield between the 5.00% Pacific St sale and the 5.87% Maple St sale, and at a multiplier between Maple and 20th Street. The reasons it is not higher are the same reasons it is defensible: two units 30% under market that recover only on turnover, a one-month expense record, and a 1953 building whose retrofit status is not yet documented. A buyer who underwrites the turnover will pay the top of the range; a buyer who prices it out will pay the bottom."
       ],
       "strategy": [
@@ -605,7 +605,7 @@
         },
         {
           "title": "Sell the Turnover Story Honestly",
-          "copy": "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,500. That is roughly $1,500 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy."
+          "copy": "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,550. That is roughly $1,600 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy."
         },
         {
           "title": "Have the Registry and the Bills Ready Before Launch",
@@ -628,7 +628,7 @@
       ],
       "disclosures": [
         "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
-        "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
+        "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix (three two bedrooms, four one bedrooms) was confirmed by ownership. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
       ],
       "gallery": [
         {
@@ -1141,7 +1141,7 @@
           ],
           "strategy_copy": [
             "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.16% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it.",
-            "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,500. That is roughly $1,500 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy.",
+            "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,550. That is roughly $1,600 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy.",
             "The documents a Santa Monica buyer asks for on the first call are the Rent Control Board registration for each unit, twelve months of bills, and the seismic retrofit status. Ownership has provided a rent roll and one month of expenses. Assembling the registry printout, a trailing statement and the City's retrofit letter before launch removes the three questions that stall escrows on buildings of this vintage."
           ],
           "narrative": [
@@ -1152,12 +1152,12 @@
           "highlights": [
             "Seven units on a 6,603 SF corner lot at Ocean Park Blvd and 9th St, built 1953, 5,682 SF per the county",
             "100% occupied at $17,107 per month scheduled, $205,286 per year, with no vacant units on the February 2026 rent roll",
-            "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents",
+            "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.25% at underwritten market rents",
             "Walk Score 87 and Bike Score 88, one mile to Main Street and the beach, with on-site laundry and parking"
           ],
           "overview": [
             "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A.",
-            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.25% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
           ]
         },
         "location": {
@@ -1192,17 +1192,17 @@
         "rent_comps": {
           "narrative": [
             "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
-            "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
+            "The market column carries $2,550 for the one bedrooms, the rent units 5 and 6 already achieve, and $3,100 for the two bedrooms, both below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases, $2,550 on two of the one bedrooms and $2,795 to $3,000 on the two bedrooms, confirm both figures are achievable without renovation. The gap between the current and market columns is $2,393 per month, and about $1,600 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
           ]
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF.",
+            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $234,000 the net operating income is $153,080 and the cap rate 6.25%. The price is $350,000 per unit and $431 per SF.",
             "Against the evidence, the price is disciplined. It sits inside the closed per-unit range, inside the closed per-square-foot range, at a yield between the 5.00% Pacific St sale and the 5.87% Maple St sale, and at a multiplier between Maple and 20th Street. The reasons it is not higher are the same reasons it is defensible: two units 30% under market that recover only on turnover, a one-month expense record, and a 1953 building whose retrofit status is not yet documented. A buyer who underwrites the turnover will pay the top of the range; a buyer who prices it out will pay the bottom."
           ],
           "disclosures": [
             "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
-            "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
+            "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix (three two bedrooms, four one bedrooms) was confirmed by ownership. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
           ]
         }
       },
@@ -1324,7 +1324,7 @@
             "comps-rent:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,500. That is roughly $1,500 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy."
+          "text": "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,550. That is roughly $1,600 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy."
         },
         {
           "id": "strategy-3",
@@ -1373,7 +1373,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents"
+          "text": "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.25% at underwritten market rents"
         },
         {
           "id": "highlight-6",
@@ -1403,7 +1403,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.25% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
         },
         {
           "id": "location-title-1",
@@ -1547,7 +1547,7 @@
             "financials:t12"
           ],
           "framed_as": "broker opinion on the market column",
-          "text": "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
+          "text": "The market column carries $2,550 for the one bedrooms, the rent units 5 and 6 already achieve, and $3,100 for the two bedrooms, both below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases, $2,550 on two of the one bedrooms and $2,795 to $3,000 on the two bedrooms, confirm both figures are achievable without renovation. The gap between the current and market columns is $2,393 per month, and about $1,600 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
         },
         {
           "id": "valuation-1",
@@ -1558,7 +1558,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF."
+          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $234,000 the net operating income is $153,080 and the cap rate 6.25%. The price is $350,000 per unit and $431 per SF."
         },
         {
           "id": "valuation-2",
@@ -1588,7 +1588,7 @@
             "pricing:risks"
           ],
           "framed_as": null,
-          "text": "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
+          "text": "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix (three two bedrooms, four one bedrooms) was confirmed by ownership. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
         }
       ],
       "exceptions": []
@@ -1618,7 +1618,7 @@
           ],
           "strategy_copy": [
             "824 Maple St shares the block with the subject and closed in May 2026 at $2,525,000, a 5.87% cap and an 11.58 multiplier. Every buyer who tours will know that sale. Pricing at $2.45M, a 5.16% cap and an 11.93 multiplier on a smaller building with more rent upside sits deliberately in the shadow of that print rather than above it, and the offering should say so rather than let a buyer discover it.",
-            "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,500. That is roughly $1,500 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy.",
+            "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,550. That is roughly $1,600 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy.",
             "The documents a Santa Monica buyer asks for on the first call are the Rent Control Board registration for each unit, twelve months of bills, and the seismic retrofit status. Ownership has provided a rent roll and one month of expenses. Assembling the registry printout, a trailing statement and the City's retrofit letter before launch removes the three questions that stall escrows on buildings of this vintage."
           ],
           "narrative": [
@@ -1629,12 +1629,12 @@
           "highlights": [
             "Seven units on a 6,603 SF corner lot at Ocean Park Blvd and 9th St, built 1953, 5,682 SF per the county",
             "100% occupied at $17,107 per month scheduled, $205,286 per year, with no vacant units on the February 2026 rent roll",
-            "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents",
+            "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.25% at underwritten market rents",
             "Walk Score 87 and Bike Score 88, one mile to Main Street and the beach, with on-site laundry and parking"
           ],
           "overview": [
             "829 Ocean Park Blvd is a seven-unit, two-story apartment building on the northeast corner of Ocean Park Blvd and 9th St in the Sunset Park neighborhood of Santa Monica. The county carries the building at 5,682 SF on a 6,603 SF lot, built 1953 with an effective year of 1959, under zoning code SMR3A.",
-            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+            "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.25% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
           ]
         },
         "location": {
@@ -1669,17 +1669,17 @@
         "rent_comps": {
           "narrative": [
             "Rent evidence is read plan by plan. Six one-bedroom listings in Sunset Park run $2,190 to $2,875 and average $2,540, with the one on Ocean Park Blvd at $2,875 and an unrenovated 700 SF unit two blocks away at $2,190. Seven two-bedroom listings run $2,795 to $3,450 and average $3,062; the 850 to 908 SF units with published area ask $2,800 to $2,895, and a renovated two bedroom one block south on Hill St asks $3,450.",
-            "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
+            "The market column carries $2,550 for the one bedrooms, the rent units 5 and 6 already achieve, and $3,100 for the two bedrooms, both below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases, $2,550 on two of the one bedrooms and $2,795 to $3,000 on the two bedrooms, confirm both figures are achievable without renovation. The gap between the current and market columns is $2,393 per month, and about $1,600 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
           ]
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF.",
+            "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $234,000 the net operating income is $153,080 and the cap rate 6.25%. The price is $350,000 per unit and $431 per SF.",
             "Against the evidence, the price is disciplined. It sits inside the closed per-unit range, inside the closed per-square-foot range, at a yield between the 5.00% Pacific St sale and the 5.87% Maple St sale, and at a multiplier between Maple and 20th Street. The reasons it is not higher are the same reasons it is defensible: two units 30% under market that recover only on turnover, a one-month expense record, and a 1953 building whose retrofit status is not yet documented. A buyer who underwrites the turnover will pay the top of the range; a buyer who prices it out will pay the bottom."
           ],
           "disclosures": [
             "Scheduled income is the ownership rent roll as of February 27, 2026, all seven units occupied. Laundry income is the March 2026 collection of $99.75 per month. Taxes are reassessed at the list price at the 1.203757% rate for tax rate area 8604 plus $1,894 of flat direct assessments carried from the 2025 bill. Utilities ($14,506) and pest control ($1,261) are ownership's March 2026 bills annualized; gardening is ownership's actual $4,800 per year. Insurance is ownership's current premium of $6,667; repairs are $800 per unit and reserves $250 per unit; management is 4% of effective gross income against $11,505 currently paid.",
-            "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
+            "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix (three two bedrooms, four one bedrooms) was confirmed by ownership. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
           ]
         }
       },
@@ -1801,7 +1801,7 @@
             "comps-rent:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,500. That is roughly $1,500 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy."
+          "text": "Two of the seven units rent at $1,712 and $1,757 against a one-bedroom market of about $2,550. That is roughly $1,600 per month of income that arrives only when those tenants leave, and no one can promise when. The offering should show the current column and the market column side by side, state that the gap is turnover-dependent under Santa Monica rent control, and let the buyer price the timing. Buyers who find that gap on their own treat it as a problem; buyers who are shown it treat it as the reason to buy."
         },
         {
           "id": "strategy-3",
@@ -1850,7 +1850,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.43% at underwritten market rents"
+          "text": "5.16% cap rate and 11.93 GRM on current income at the recommended price, 6.25% at underwritten market rents"
         },
         {
           "id": "highlight-6",
@@ -1880,7 +1880,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.43% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
+          "text": "At the recommended $2.45M the property prices at $350,000 per unit and $431 per SF, a 5.16% return on current income and 6.25% at underwritten market rents. The closed Sunset Park sales of the past nine months ran $310,000 to $458,000 per unit and $366 to $493 per SF at cap rates of 5.00% to 6.07%, and the sale directly behind the subject on Maple St closed at 5.87%. The subject prices inside every range and below the Maple St yield because its income has more room to grow."
         },
         {
           "id": "location-title-1",
@@ -2024,7 +2024,7 @@
             "financials:t12"
           ],
           "framed_as": "broker opinion on the market column",
-          "text": "The market column carries $2,500 for the one bedrooms and $3,100 for the two bedrooms, below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases at $2,550 and $2,795 to $3,000 confirm the two-bedroom figure is achievable without renovation. The gap between the current and market columns is $2,793 per month, and about $1,500 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
+          "text": "The market column carries $2,550 for the one bedrooms, the rent units 5 and 6 already achieve, and $3,100 for the two bedrooms, both below the listing averages and below HUD's 2026 fair market rents for the ZIP. The subject's most recent leases, $2,550 on two of the one bedrooms and $2,795 to $3,000 on the two bedrooms, confirm both figures are achievable without renovation. The gap between the current and market columns is $2,393 per month, and about $1,600 of it sits in the two long-term one-bedroom tenancies, which under Santa Monica rent control recover only when those tenants choose to leave."
         },
         {
           "id": "valuation-1",
@@ -2035,7 +2035,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": null,
-          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $238,800 the net operating income is $157,550 and the cap rate 6.43%. The price is $350,000 per unit and $431 per SF."
+          "text": "The recommended list price is $2.45M, inside an opinion-of-value range of $2.35M to $2.55M. Current scheduled income of $205,286 less a 3% vacancy reserve plus $1,197 of laundry income gives $200,325 of effective gross income; operating expenses of $73,983, including taxes reassessed at the list price, produce net operating income of $126,342, a 5.16% cap rate and an 11.93 gross rent multiplier. At underwritten market rents of $234,000 the net operating income is $153,080 and the cap rate 6.25%. The price is $350,000 per unit and $431 per SF."
         },
         {
           "id": "valuation-2",
@@ -2065,7 +2065,7 @@
             "pricing:risks"
           ],
           "framed_as": null,
-          "text": "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix is provisional: leasing history supports unit 4 as a two bedroom and unit 6 as a one bedroom and the rest are inferred from rent level. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
+          "text": "No trailing twelve-month statement was provided, so the expense build is an allowance-based estimate. The bedroom mix (three two bedrooms, four one bedrooms) was confirmed by ownership. Unit square footages are not published and are omitted. Market rents are asking rents from Sunset Park listings retrieved September 2, 2026 and apply only on turnover under Santa Monica rent control. Comparable cap rates and multipliers are as recorded by CoStar or published by listing brokers and were not independently audited."
         }
       ],
       "exceptions": []
@@ -2180,29 +2180,29 @@
   "approval_binding": {
     "deal_id": "829-ocean-park",
     "domains": {
-      "identity": "4ba021873295c191d82f0ca6cede394e79acc89dbf77f030e84b23df042d188f",
-      "financial_inputs": "56c7a7d946f80eabdb76365ea0429c94e7046d04b796a49b6ffcbe44596b849d",
-      "pricing_decision": "e32121425e2c1624106ef3a242d6b032c8e4a00e0fdeb21c0112841aeecf131a",
-      "sale_comps": "501b4d0dd11f83e3f89d4a8a42c17ba499697095174fe5dfb742b1aea689c8fd",
-      "rent_comps": "1347e3848c045980fb051c92494d0d59bc04fb812e3e0749fac9fd607f9b0b34",
-      "copy": "cb6e5238a2b5b0a946dd76b5fc6efd3e59076382d2c42eef88ec9c9ab7f066fb",
+      "identity": "8ff29b1741bea67009c86a62b42b29fcc1df9ca5c49dcd671e0d7d18bee53249",
+      "financial_inputs": "ffbb5880c2286d8404c34d55284e3fa5ef286baffb3b0da5b67c49ed8ecd83ab",
+      "pricing_decision": "afdc1fc6b999b862477cd4002bced3b44d409755f6e335a659b679fe2741bcd8",
+      "sale_comps": "2e51c18badcecdc949422b5ff953622b9e8a88ad2e30034c1c13af0027b53bd4",
+      "rent_comps": "e6e36e5628346414a434b4b0f352e7b239372b8c8814600a41407144f3fb55fb",
+      "copy": "a05adda922b2d15b364ca9392b7072e575832e509f479e0b296f528bb46c4550",
       "media_selection": "5d6af8cf72e794d42fa8e44fef9cac743a42726b713822eda702327db8c9dd37",
       "regulatory_conclusions": "06c7d6e3d0ca90b9b4834b1951df7368ab805b9c52365d84c3965429802178be"
     },
     "presentation_hashes": {
       "identity": "f5cb7c541ba494b3ca97d8a09010e690e7139fe84c515f1da4c2db936829dfb8",
-      "financial_inputs": "422ee59760deea0163660c35ed6406bc8189f0bfda99491f0b97d336dd161f4c",
-      "pricing_decision": "b227dca7ece873a40e26836fc5d94e13242dd998677e222523bacddd874fed4e",
+      "financial_inputs": "24c4933f875d42954a2b1a006dfd2a03787aca2f18af623805804a753979a90d",
+      "pricing_decision": "0f77287d676fcf4d6e28334bc4dabf602715843c8f140bd427c904e3ea51848c",
       "sale_comps": "acedb6fc48b217833955284ecff68a9c521f5e39b2d755198d0aae815c3d87d2",
       "rent_comps": "6cd3d6b108d1128c905dd974da8e5274ed90e2c45b388ed79efb7bb7a703a123",
-      "copy": "e9eb741a4b750811052d95c600bd57d7585f227a11a83eb7b05b64733136d260",
+      "copy": "f97ae687754a0d8b907e85e2fd9c08d2bb95da064270d9adb44a4b2d5219bd52",
       "media_selection": "d439b771999a45616f94451414abdbe93ac6722bfc16337933e117d831e1ef8d",
       "regulatory_conclusions": "6b2432c192e092964ded3dc672472e432598289801f9cefac5427691fc3787e0"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-02T22:00:52+00:00",
+    "generated": "2026-09-02T22:49:49+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
