@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "deal",
+  "deal_id": "829-ocean-park",
+  "portfolio_id": null,
+  "package_version": "v6",
+  "approved_at": "2026-09-02T20:40:04.462122+00:00",
+  "approver": "Filip Niculete",
+  "price": {
+    "value": 2450000
+  },
+  "approved_exception_ids": [
+    "exc-comp-income",
+    "exc-laundry",
+    "exc-market-rents",
+    "exc-owner-expenses",
+    "exc-parking",
+    "exc-pin-provisional",
+    "exc-pricing-pending",
+    "exc-rent-control-registry",
+    "exc-seismic",
+    "exc-tax-reassessment",
+    "exc-unit-mix",
+    "exc-unit-sf"
+  ],
+  "domains": {
+    "copy": {
+      "content_sha256": "0cd55f4b62dd12d537d7c6c080d4550ec476fb04d1d47614af2302a6f14671fb"
+    },
+    "financial_inputs": {
+      "content_sha256": "40577deb066f8b67e91bdd77ce144aa18cd45f2dc1bdf5b3358db910969d9d36"
+    },
+    "identity": {
+      "content_sha256": "0840a7e35eff7a9a0555256f13bd94feb35878531e2c8b8535fdf1d68b2cb95e"
+    },
+    "media_selection": {
+      "content_sha256": "5d6af8cf72e794d42fa8e44fef9cac743a42726b713822eda702327db8c9dd37"
+    },
+    "pricing_decision": {
+      "content_sha256": "4a8a11d065e2ce82c2e56072200a90179ecdb6804fcf19b6c85986fe5bde9476"
+    },
+    "regulatory_conclusions": {
+      "content_sha256": "06c7d6e3d0ca90b9b4834b1951df7368ab805b9c52365d84c3965429802178be"
+    },
+    "rent_comps": {
+      "content_sha256": "eda109acbe1c1f5fe3360dfdf7ba08432b8810555085400c59a272134314236b"
+    },
+    "sale_comps": {
+      "content_sha256": "78360abae97efeb885e061ff6dae39da08c223c4d1c51ab513b9b8511f329e27"
+    }
+  },
+  "legacy_snapshot": false,
+  "legacy_label": null,
+  "members": null
+}
